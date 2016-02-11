@@ -23,15 +23,16 @@ import requests
 
 url = 'https://api.twitter.com/1.1/statuses/show.json?id=696702852736090112'
 r = requests.get(url=url, auth=get_oauth())
+print dir(r.json())
+print type(r.json())
+print r.json()['text']
 
+# data = json.loads(r.json())
 
-
-data = json.loads(r.json())
-
-print data
+# print data
 
 with open('example.json','w') as f:
-  f.write(r.json())
+  json.dump(r.json(),f,indent=1)
 
 # print dir(r.json)
 
