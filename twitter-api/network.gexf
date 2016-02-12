@@ -1,0 +1,112 @@
+<gexf version="1.1" xmlns="http://www.gexf.net/1.1draft" xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static">
+    <nodes>
+      <node id="ellaelinoora" label="ellaelinoora" />
+      <node id="jnkka" label="jnkka" />
+      <node id="arvileino" label="arvileino" />
+      <node id="Kampusareena" label="Kampusareena" />
+      <node id="JukkaHammar" label="JukkaHammar" />
+      <node id="ThinkKora" label="ThinkKora" />
+      <node id="SannaSchildt" label="SannaSchildt" />
+      <node id="paulaalakotila" label="paulaalakotila" />
+      <node id="mika_hannula" label="mika_hannula" />
+      <node id="opendatatre" label="opendatatre" />
+      <node id="jjussila" label="jjussila" />
+      <node id="MarkkuKivikoski" label="MarkkuKivikoski" />
+      <node id="huhtelin" label="huhtelin" />
+      <node id="SuomenAkatemia" label="SuomenAkatemia" />
+      <node id="EdutechTUT" label="EdutechTUT" />
+      <node id="PiviPamy" label="PiviPamy" />
+      <node id="rasanenp" label="rasanenp" />
+      <node id="essiisohanni" label="essiisohanni" />
+      <node id="SaraRiihimaki" label="SaraRiihimaki" />
+      <node id="EHaapaniemi" label="EHaapaniemi" />
+      <node id="petrinokelainen" label="petrinokelainen" />
+      <node id="jukka_pekkanen" label="jukka_pekkanen" />
+      <node id="Yterv" label="Yterv" />
+      <node id="Tuomas_Marttila" label="Tuomas_Marttila" />
+      <node id="Tiinaaij" label="Tiinaaij" />
+      <node id="SatuKantti" label="SatuKantti" />
+      <node id="openscienceeu" label="openscienceeu" />
+      <node id="Riittawinberg" label="Riittawinberg" />
+      <node id="HarriHonko" label="HarriHonko" />
+      <node id="EMCCFinland" label="EMCCFinland" />
+      <node id="minnapuntila" label="minnapuntila" />
+      <node id="TampereUniTech" label="TampereUniTech" />
+      <node id="amjarvelin" label="amjarvelin" />
+      <node id="simpami" label="simpami" />
+    </nodes>
+    <edges>
+      <edge id="0" source="ellaelinoora" target="TampereUniTech" weight="1" />
+      <edge id="1" source="jnkka" target="jnkka" weight="2" />
+      <edge id="2" source="jnkka" target="SannaSchildt" weight="1" />
+      <edge id="3" source="jnkka" target="simpami" weight="2" />
+      <edge id="4" source="jnkka" target="SuomenAkatemia" weight="1" />
+      <edge id="5" source="jnkka" target="MarkkuKivikoski" weight="1" />
+      <edge id="6" source="jnkka" target="TampereUniTech" weight="8" />
+      <edge id="7" source="jnkka" target="Kampusareena" weight="1" />
+      <edge id="8" source="jnkka" target="HarriHonko" weight="2" />
+      <edge id="9" source="arvileino" target="TampereUniTech" weight="1" />
+      <edge id="10" source="Kampusareena" target="ThinkKora" weight="1" />
+      <edge id="11" source="Kampusareena" target="TampereUniTech" weight="2" />
+      <edge id="12" source="Kampusareena" target="SannaSchildt" weight="2" />
+      <edge id="13" source="Kampusareena" target="Kampusareena" weight="1" />
+      <edge id="14" source="Kampusareena" target="simpami" weight="1" />
+      <edge id="15" source="ThinkKora" target="ThinkKora" weight="1" />
+      <edge id="16" source="ThinkKora" target="Kampusareena" weight="2" />
+      <edge id="17" source="SannaSchildt" target="TampereUniTech" weight="5" />
+      <edge id="18" source="paulaalakotila" target="TampereUniTech" weight="1" />
+      <edge id="19" source="mika_hannula" target="TampereUniTech" weight="1" />
+      <edge id="20" source="opendatatre" target="TampereUniTech" weight="5" />
+      <edge id="21" source="opendatatre" target="SuomenAkatemia" weight="1" />
+      <edge id="22" source="opendatatre" target="jnkka" weight="1" />
+      <edge id="23" source="opendatatre" target="SannaSchildt" weight="1" />
+      <edge id="24" source="jjussila" target="TampereUniTech" weight="1" />
+      <edge id="25" source="jjussila" target="jnkka" weight="1" />
+      <edge id="26" source="MarkkuKivikoski" target="TampereUniTech" weight="3" />
+      <edge id="27" source="MarkkuKivikoski" target="PiviPamy" weight="1" />
+      <edge id="28" source="MarkkuKivikoski" target="jnkka" weight="2" />
+      <edge id="29" source="huhtelin" target="JukkaHammar" weight="1" />
+      <edge id="30" source="huhtelin" target="essiisohanni" weight="1" />
+      <edge id="31" source="huhtelin" target="petrinokelainen" weight="1" />
+      <edge id="32" source="huhtelin" target="MarkkuKivikoski" weight="1" />
+      <edge id="33" source="huhtelin" target="TampereUniTech" weight="3" />
+      <edge id="34" source="huhtelin" target="Kampusareena" weight="1" />
+      <edge id="35" source="EdutechTUT" target="TampereUniTech" weight="1" />
+      <edge id="36" source="EdutechTUT" target="SannaSchildt" weight="1" />
+      <edge id="37" source="PiviPamy" target="TampereUniTech" weight="1" />
+      <edge id="38" source="PiviPamy" target="PiviPamy" weight="1" />
+      <edge id="39" source="rasanenp" target="TampereUniTech" weight="1" />
+      <edge id="40" source="essiisohanni" target="mika_hannula" weight="1" />
+      <edge id="41" source="essiisohanni" target="petrinokelainen" weight="1" />
+      <edge id="42" source="SaraRiihimaki" target="TampereUniTech" weight="1" />
+      <edge id="43" source="EHaapaniemi" target="TampereUniTech" weight="2" />
+      <edge id="44" source="jukka_pekkanen" target="TampereUniTech" weight="1" />
+      <edge id="45" source="Yterv" target="TampereUniTech" weight="4" />
+      <edge id="46" source="Yterv" target="SannaSchildt" weight="1" />
+      <edge id="47" source="Tuomas_Marttila" target="TampereUniTech" weight="1" />
+      <edge id="48" source="Tiinaaij" target="TampereUniTech" weight="1" />
+      <edge id="49" source="SatuKantti" target="TampereUniTech" weight="1" />
+      <edge id="50" source="openscienceeu" target="TampereUniTech" weight="1" />
+      <edge id="51" source="Riittawinberg" target="TampereUniTech" weight="1" />
+      <edge id="52" source="EMCCFinland" target="TampereUniTech" weight="1" />
+      <edge id="53" source="minnapuntila" target="TampereUniTech" weight="2" />
+      <edge id="54" source="minnapuntila" target="PiviPamy" weight="1" />
+      <edge id="55" source="minnapuntila" target="MarkkuKivikoski" weight="1" />
+      <edge id="56" source="TampereUniTech" target="PiviPamy" weight="2" />
+      <edge id="57" source="TampereUniTech" target="jnkka" weight="3" />
+      <edge id="58" source="TampereUniTech" target="HarriHonko" weight="1" />
+      <edge id="59" source="TampereUniTech" target="MarkkuKivikoski" weight="2" />
+      <edge id="60" source="TampereUniTech" target="TampereUniTech" weight="7" />
+      <edge id="61" source="TampereUniTech" target="SannaSchildt" weight="4" />
+      <edge id="62" source="amjarvelin" target="TampereUniTech" weight="5" />
+      <edge id="63" source="amjarvelin" target="ThinkKora" weight="1" />
+      <edge id="64" source="amjarvelin" target="SannaSchildt" weight="1" />
+      <edge id="65" source="amjarvelin" target="Kampusareena" weight="3" />
+      <edge id="66" source="simpami" target="TampereUniTech" weight="3" />
+      <edge id="67" source="simpami" target="SuomenAkatemia" weight="1" />
+      <edge id="68" source="simpami" target="jnkka" weight="1" />
+      <edge id="69" source="simpami" target="SannaSchildt" weight="1" />
+    </edges>
+  </graph>
+</gexf>
