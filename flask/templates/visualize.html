@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Flaskr</title>
+    <script src="http://code.highcharts.com/highcharts.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+      crossorigin="anonymous"></script>
+  </head>
+<body>
+  <h2>Visualize</h2>
+
+  <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+
+<script>
+$.getJSON('http://localhost:5000/static/data.json', function(data) {
+  console.log(data)
+});
+
+// $(function () { 
+//     var myChart = Highcharts.chart('container', {
+//         chart: {
+//             type: 'bar'
+//         },
+//         title: {
+//             text: 'Fruit Consumption'
+//         },
+//         xAxis: {
+//             categories: ['Apples', 'Bananas', 'Oranges']
+//         },
+//         yAxis: {
+//             title: {
+//                 text: 'Fruit eaten'
+//             }
+//         },
+//         series: [{
+//             name: 'Jane',
+//             data: [1, 0, 4]
+//         }, {
+//             name: 'John',
+//             data: [5, 7, 3]
+//         }]
+//     });
+// });
+
+$.getJSON('http://localhost:5000/static/data.json', function (data) { 
+    var myChart = Highcharts.chart('container', {
+        chart: {
+            type: 'bar'
+        },
+        title: {
+            text: 'Fruit Consumption'
+        },
+        xAxis: {
+            categories: ['Apples', 'Bananas', 'Oranges']
+        },
+        yAxis: {
+            title: {
+                text: 'Fruit eaten'
+            }
+        },
+        series: data
+    });
+});
+
+</script>
+
+</body>
+
+</html>
