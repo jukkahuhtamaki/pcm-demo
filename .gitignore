@@ -4,3 +4,7 @@ twitter-api/keychain.json
 twitter-api/example.json
 
 twitter-api/example.json
+
+node-mvc-highcharts/.c9/*
+
+node-mvc-highcharts/node_modules/*

@@ -1,0 +1,36 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+
+  p Data available #{foo}
+
+  div#container 
+  
+  script.
+    $(function () { 
+      var myChart = Highcharts.chart('container', {
+          chart: {
+              type: 'bar'
+          },
+          title: {
+              text: 'Fruit Consumption'
+          },
+          xAxis: {
+              categories: ['Apples', 'Bananas', 'Oranges']
+          },
+          yAxis: {
+              title: {
+                  text: 'Fruit eaten'
+              }
+          },
+          series: [{
+              name: 'Jane',
+              data: [1, 0, 4]
+          }, {
+              name: 'John',
+              data: [5, 7, 3]
+          }]
+      });
+    });
