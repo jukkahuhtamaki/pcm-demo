@@ -10,7 +10,7 @@ def hello():
 
 @app.route('/ok')
 def example():
-  return render_template('visualize.html', data=[])
+  return render_template('visualize.html', data=[], message='Hello world!')
 
 #  return 'Ok'
 
